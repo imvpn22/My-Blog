@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+    <title>Home | Vipin Yadav</title>
+    <link href="/ui/style.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/d4ad1e750c.js"></script>
+</head>
+<body>
+
+    <div class="header">
+        <button class="head-btn"><i class="fa fa-bars"></i></button>
+        <span class="header-text">My Blog</span>
+        <button class="head-btn" id="login_op"><i class="fa fa-sign-in"></i></button>
+    </div>
+</div>
+
+<div class="main" id="main">
+
+    <div class="intro">
+        <div >    
+            <h1>Bring Your Ideas to Life</h1>
+        </div>                  
+        <span id="go-down-btn"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+    </div>
+
+    <div class="content" id="content">
+        <div class="left">
+            <span>My Articles</span>
+            <ul type="none">
+                <li class="articles"><a href="article/article-one">Article One</a></li>
+                <li class="articles"><a href="article/article-two">Article Two</a></li>
+                <li class="articles"><a href="article/article-three">Article Three</a></li>
+            </ul>
+            <button class="articles" id="create-art-btn">Create new article</button>
+            <div>
+                Enter your name and submit !
+                <input type="text" id="name" placeholder="Name"> </input>
+                <input type="text" id="comment" placeholder="Enter comment here"> </input>
+                <input type="submit" value="Submit" id="submit_btn"> </input>
+                <ul id = "nameList"> </ul>
+                <div>
+                    This button <button id="counter"> Click me! </button> has been clicked <span id="count">0</span> times.
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            This is some random article
+                <div class="hidden" id="new-art-back">
+                    <div id="new-art">
+                        <div class="close-btn" id="new-art-close">X</i></div>
+                        <div class="new-art-items">
+                            <div class="new-art-item"> 
+                                <span>Title</span>
+                                <input type="text" name="article-title" placeholder="New Title" autofocus/>
+                            </div>
+                            <div class="new-art-item">
+                                <textarea name="article-content" placeholder="Write content here"></textarea> 
+                            </div>
+                        </div>
+                        <input type="submit" id="submit-new-art" value="Post Article">
+
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="f-items">
+           <div class="f-item">
+               <ul>
+                <li>Website</li>
+                <li>Application</li>
+                <li>Blog</li>
+                <li>Other Services</li>
+                <li>Sponsorship</li>
+            </ul>
+        </div>
+        <div class="f-item">
+           Write some content here
+       </div>
+       <div class="f-item">
+        <span>Developers</span>
+
+    </div>
+    <div class="f-item">
+        <span>Connect us</span>
+        <div class="head-nav">
+           <a href="#"><button class="head-btn"><i class="fa fa-facebook-f"></i></button></a>
+           <a href="#"><button class="head-btn"><i class="fa fa-google-plus"></i></button></a>
+           <a href="#"><button class="head-btn"><i class="fa fa-twitter"></i></button></a>
+           <a href="#"><button class="head-btn"><i class="fa fa-youtube"></i></button></a>
+       </div>
+   </div>
+</div>
+<div class="f-items">All rights reserved @ VPN 2017</div>
+
+</div>
+
+</div>
+
+
+
+<div class="pop-back hidden" id="loginPanelBack">
+    <div class="pop" id="loginPanel">
+        <div class="close-btn" id="login-panel-close">X</div>
+        <div class="pop-text">Sign-Up / Sign-In</div>
+        <div class="pop-item">
+            <div class="signup-panel">
+                <div>
+                    <div class="login-form">
+                        <div class="form-item">
+                            <label><i class="fa fa-user"></i> Name</label>
+                            <input type="text" id="name"></input>
+                        </div>
+                        <div class="form-item">
+                            <label><i class="fa fa-envelope"></i> E-mail</label>
+                            <input type="email" id="email"></input>
+                        </div>
+                        <div class="form-item">
+                            <label><i class="fa fa-user"></i> Username</label>
+                            <input type="text" id="uname"></input>
+                        </div>
+                        <div class="form-item">
+                            <label><i class="fa fa-lock"></i> Password</label>
+                            <input type="password" id="passwd"></input>
+                        </div>
+                        <div class="form-item">
+                            <label><i class="fa fa-lock"></i>Confirm Password</label>
+                            <input type="password" id="r-passwd"></input>
+                        </div>
+                        <div class="form-item form-gen">
+                            <label>Gender</label>
+                            <div class="gen-items">
+                                <div class="gen-item"><input type="radio" value="male"/><i class="fa fa-mars"></i> &nbsp Male</div>
+                                <div class="gen-item"><input type="radio" value="female"/><i class="fa fa-venus"></i> &nbsp Female </div>
+                                <div class="gen-item"><input type="radio" value="other"/><i class="fa fa-transgender"></i> &nbsp Other </div>
+                            </div>
+                        </div>
+
+                        <input id="signup_btn" type="submit" value="Sign-Up">
+
+                    </div>
+                </div>
+            </div>
+            <div class="login-panel">
+                <div>
+                    <div class="user-img" ><i class="fa fa-user-circle" aria-hidden="true"></i> </div> 
+                    <div class="login-form">
+                        <div class="form-item">
+                            <label><i class="fa fa-user"></i> Username</label>
+                            <input type="text" id="username" autofocus></input>
+                        </div>
+                        <div class="form-item">
+                            <label><i class="fa fa-lock"></i> Password</label>
+                            <input type="password" id="password"></input>
+                        </div>
+
+                        <input id="login_btn" type="submit" value="Login">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/ui/main.js"></script>
+</body>
+</html>
