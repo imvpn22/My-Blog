@@ -1,6 +1,6 @@
 // Counter code
 
-var counterBtn = document.getElementById('counter');
+/*var counterBtn = document.getElementById('counter');
 
 counterBtn.onclick = function () {
 	// Create a request object
@@ -25,7 +25,7 @@ counterBtn.onclick = function () {
 	
 };
 
-
+*/
 
 
 // Submit Name
@@ -113,11 +113,13 @@ login_op_c.onclick = function() {
 var cr_n_art = document.getElementById('create-art-btn');
 cr_n_art.onclick = function() {
 	document.getElementById('new-art-back').classList.remove('hidden');
+	document.getElementById('old-art-back').classList.add('hidden');
 };
 
 var cl_n_art = document.getElementById('new-art-close');
 cl_n_art.onclick = function() {
 	document.getElementById('new-art-back').classList.add('hidden');
+	document.getElementById('old-art-back').classList.remove('hidden');
 };
 
 var go_down_btn = document.getElementById('go-down-btn');
