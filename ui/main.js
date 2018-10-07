@@ -126,3 +126,11 @@ var go_down_btn = document.getElementById('go-down-btn');
 go_down_btn.onclick = function() {
 	
 };
+
+// Script for side nav
+
+var sidenav_btn = document.getElementById('sidenav-btn');
+var sidenav = document.getElementById('sidenav');
+sidenav_btn.onclick = function () {
+	sidenav.classList.toggle('is-hidden');
+}

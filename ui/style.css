@@ -91,7 +91,6 @@ body {
     position: absolute;
     top: 0; bottom: 0; left: 0; right: 0; 
     overflow-y: scroll;
-    background-image: url(https://s1.wp.com/home.logged-out/page-rey-2/img/hero-icons.svg);
     background-color: rgba(0,0,0,.9);
 }
 
@@ -435,7 +434,6 @@ button {
 }
 
 
-
 #submit-new-art {
     padding: .2em 1em;
     font-size: 1.1em;
@@ -447,4 +445,30 @@ button {
 #submit-new-art:hover {
     background: rgba(76, 206, 76, 0.9);;
     color:#fff;
+}
+
+/* Side Nav css */
+
+#sidenav {
+    height: 90%;
+    width: 300px;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    color: #fff;
+    font-size: 2em;
+    z-index: 1;
+    padding-top: 2em;
+    transition: transform 0.3s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.is-hidden {
+
+    transform: translateX(-300px);
 }

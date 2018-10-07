@@ -6,11 +6,11 @@ var crypto = require('crypto');
 var bodyParser = require('body-parser');
 
 var config = {
-  host: 'db.imad.hasura-app.io',
-  user: 'vpnydv10year',
-  database: 'vpnydv10year',
+  host: 'localhost',
+  user: 'postgres',
+  database: 'owncloud',
   port : '5432',
-  password: 'db-vpnydv10year-57200'
+  password: 'password'
 };
 
 var app = express();
